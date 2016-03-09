@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+  font: normal 100%/1.5 "Lato", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+div {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+	vertical-align: middle;
+}
+
+img {
+  width: 100%;
+}
+
+.sectionimage {
+  padding: 20px;
+}
+
+a {
+  border: 3px solid #f2f2f2;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+}
+
+a :hover {
+  background-color: #000;
+}
